@@ -10,5 +10,5 @@ if username == "sanskruti":
         print("unsuccsefully")    
 
 else:
-    print("not correct username")
+    print("uncorrect username")
     
