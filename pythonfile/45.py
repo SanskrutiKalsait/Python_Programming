@@ -1,19 +1,19 @@
 
 # #IF ELSE
 # #1
-# num = 4
-# if num %2 ==0 :
-#     print("even")
-# else:
-#      ("odd")
+num = 4
+if num %2 ==0 :
+    print("even")
+else:
+     ("odd")
 
 
-# #2
-# # num = 5
-# # if num >=0:
-# #      print("positive")
-# # else:
-# #      print("negative")
+#2
+num = 5
+if num >=0:
+     print("positive")
+else:
+     print("negative")
 
 
 # fruit =["banna","mango","apple","orange"]
@@ -198,55 +198,55 @@
 # print(n[-1])
 
 
-from abc import ABC , abstractmethod
-class star(ABC):
-    @abstractmethod
-    def display(self):
-        pass
+# from abc import ABC , abstractmethod
+# class star(ABC):
+#     @abstractmethod
+#     def display(self):
+#         pass
 
-class pattern(star):
-    def display(self):
-     for i in range(1,6):
-            print("*"*i)
+# class pattern(star):
+#     def display(self):
+#      for i in range(1,6):
+#             print("*"*i)
 
-s=pattern()
-s.display()
+# s=pattern()
+# s.display()
 
-print("______________________")
+# print("______________________")
 
-from abc import ABC , abstractmethod
-class star(ABC):
-    @abstractmethod
-    def display(self):
-        pass
+# from abc import ABC , abstractmethod
+# class star(ABC):
+#     @abstractmethod
+#     def display(self):
+#         pass
 
-class pattern(star):
-    def display(self):
-     for i in range(6,0,-1):
-            print("*"*i)
+# class pattern(star):
+#     def display(self):
+#      for i in range(6,0,-1):
+#             print("*"*i)
 
-s=pattern()
-s.display()
+# s=pattern()
+# s.display()
 
-print("______________________")
-from abc import ABC , abstractmethod
-class star(ABC):
-    @abstractmethod
-    def display(self):
-        pass
+# print("______________________")
+# from abc import ABC , abstractmethod
+# class star(ABC):
+#     @abstractmethod
+#     def display(self):
+#         pass
 
-class pattern(star):
-    def display(self):
-        for i in range(7,0,-1):
-            print("*"*i )
+# class pattern(star):
+#     def display(self):
+#         for i in range(7,0,-1):
+#             print("*"*i )
 
-        for i in range(1,7):
-                    print("*"*i )
+#         for i in range(1,7):
+#                     print("*"*i )
     
 
 
-s=pattern()
-s.display()
+# s=pattern()
+# s.display()
 
 
 
