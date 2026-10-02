@@ -1,0 +1,4 @@
+
+import mymodul
+
+mymodul.display()
