@@ -6,7 +6,7 @@ with open("student.json", "r") as file:
     students = json.load(file)
 
 for student in students:
-    if student["name"] == "Rahul":
+    if  student['name'] == "Rahul":
         student["marks"] = 95
 
 with open("student.json", "w") as file:
