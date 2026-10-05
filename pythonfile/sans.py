@@ -22,3 +22,15 @@ it_pass = True
 print(it_pass)
 print(type(it_pass))
 
+
+#string 
+name = "sanskruti"
+#int
+age = 19
+#float
+float= 89.0
+#blooean
+it_pass = True
+
+
+

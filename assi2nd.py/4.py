@@ -8,4 +8,5 @@ if num% 5 == 0:
 
 else:
     print("not divisible")
+
     
