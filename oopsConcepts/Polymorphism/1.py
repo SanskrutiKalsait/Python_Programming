@@ -1,35 +1,35 @@
 # 1 Create Dog and Cat classes. Both should have a sound() method, but return different sounds
 
-class Dog:
-    def sound(self):
-        print("Dog says: bark")
+# class Dog:
+#     def sound(self):
+#         print("Dog says: bark")
 
 
-class Cat:
-    def sound(self):
-        print("Cat says: Meow")
+# class Cat:
+#     def sound(self):
+#         print("Cat says: Meow")
 
 
-d = Dog()
-c = Cat()
+# d = Dog()
+# c = Cat()
 
-d.sound()
-c.sound()
+# d.sound()
+# c.sound()
 
 # # 2 Create Car and Bike classes. Both should have a start() method with different outputs.
 
-# class car:
-#     def start(self):
-#         print("bike is start")
+class car:
+    def start(self):
+        print("bike is start")
 
-# class bike:
-#     def start(self):
-#         print("car is start")
+class bike:
+    def start(self):
+        print("car is start")
 
-# c = car()
-# b = bike()
-# c.start()
-# b.start()
+c = car()
+b = bike()
+c.start()
+b.start()
 
 # 3 Create Rectangle and Circle classes with an area() method. Calculate the area differently for each class
 
