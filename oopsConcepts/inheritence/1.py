@@ -56,30 +56,30 @@
         
 # # 5 Create a Father class with a property() method. Create a Son class that inherits from Father.
 
-class father:
-    def property(self):
-        print("property of father")
+# class father:
+#     def property(self):
+#         print("property of father")
 
-class son(father):
-    pass
+# class son(father):
+#     pass
 
-s1 = son()
-s1.property()
+# s1 = son()
+# s1.property()
 
 
 # 6 Create a Shape class with a display() method. Create Circle and Rectangle classes that inherit from Shape.
 
-# class shape:
-#     def display(self):
-#         print("this is a shape")
+class shape:
+    def display(self):
+        print("this is a shape")
 
-# class circle(shape):
-#     pass
-# class rectangle(shape):
-#     pass
+class circle(shape):
+    pass
+class rectangle(shape):
+    pass
 
-# c = circle()
-# r = rectangle()
-# c.display()
-# r.display()
+c = circle()
+r = rectangle()
+c.display()
+r.display()
 
