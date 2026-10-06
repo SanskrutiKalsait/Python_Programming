@@ -48,11 +48,11 @@ class Manager(Employee):
         self.department = department
 
 
-# m1 = Manager("Sanskruti", 30000, "IT")
+m1 = Manager("Sanskruti", 30000, "IT")
 
-# print("Name:", m1.name)
-# print("Salary:", m1.salary)
-# print("Department:", m1.department)
+print("Name:", m1.name)
+print("Salary:", m1.salary)
+print("Department:", m1.department)
         
 # # 5 Create a Father class with a property() method. Create a Son class that inherits from Father.
 
