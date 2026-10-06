@@ -24,28 +24,28 @@
         
 # # 3 Create a Animal class with a sound() method. Create a Dog class that inherits from Animal.
 
-class Animal:
-    def sound(self):
-        print("animal make sound")
+# class Animal:
+#     def sound(self):
+#         print("animal make sound")
 
-class dog(Animal):
-    def sound(self):
-        print("dog spark")
+# class dog(Animal):
+#     def sound(self):
+#         print("dog spark")
 
-d = dog()
-d.sound()
+# d = dog()
+# d.sound()
 
 # # 4 Create a Employee class with name and salary. Create a Manager class that inherits from Employee and add a department variable.
 
-# class Employee:
-#     def __init__(self, name, salary):
-#         self.name = name
-#         self.salary = salary
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
 
-# class Manager(Employee):
-#     def __init__(self, name, salary, department):
-#         super().__init__(name, salary)
-#         self.department = department
+class Manager(Employee):
+    def __init__(self, name, salary, department):
+        super().__init__(name, salary)
+        self.department = department
 
 
 # m1 = Manager("Sanskruti", 30000, "IT")
