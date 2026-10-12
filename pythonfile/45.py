@@ -1,19 +1,19 @@
 
 # #IF ELSE
 # #1
-num = 4
-if num %2 ==0 :
-    print("even")
-else:
-     ("odd")
+# num = 4
+# if num %2 ==0 :
+#     print("even")
+# else:
+#      ("odd")
 
 
-#2
-num = 5
-if num >=0:
-     print("positive")
-else:
-     print("negative")
+# #2
+# num = 5
+# if num >=0:
+#      print("positive")
+# else:
+#      print("negative")
 
 
 # fruit =["banna","mango","apple","orange"]
@@ -247,9 +247,5 @@ else:
 
 # s=pattern()
 # s.display()
-
-
-
-
 
 

@@ -7,5 +7,3 @@ city = input("enter your city name")
 print("Enter your name =",name)
 print("Enter your age =",num)
 print("Enter your city name =",city)
-print("____________________")
-
