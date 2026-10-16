@@ -4,7 +4,7 @@ import json
 with open("student.json", "r") as file:
     data = json.load(file)
 
-for student in data["students"]:
+for student in data["student"]:
     if student["name"] == "Rahul":
         student["marks"] = 95
 
