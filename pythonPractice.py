@@ -1,10 +1,10 @@
 
-# total = 0
+total = 0
 
-# for i in range(1, 11):
-#     total += i
+for i in range(1, 11):
+    total += i
 
-# print("Sum =", total)
+print("Sum =", total)
 
 
 # text = "Python"
@@ -29,10 +29,10 @@
 
 
 
-def check_number(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+# def check_number(num):
+#     if num % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
 
-print(check_number(8))
+# print(check_number(8))
