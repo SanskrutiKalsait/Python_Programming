@@ -1,16 +1,16 @@
 
-# print ("****STUDENT DETAILS****")
+print ("****STUDENT DETAILS****")
 
-# name = "sanskruti"
-# print(name)
-# middlename = "satish"
-# print(middlename)
-# lastname = "kalsait"
-# print(lastname)
-# cityname = "pune"
-# print(cityname)
-# areaname = "bhilarvadi"
-# print(areaname)
+name = "sanskruti"
+print(name)
+middlename = "satish"
+print(middlename)
+lastname = "kalsait"
+print(lastname)
+cityname = "pune"
+print(cityname)
+areaname = "bhilarvadi"
+print(areaname)
 
 # print ("****WORKERS DETAILS****")
 
