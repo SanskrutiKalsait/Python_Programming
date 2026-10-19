@@ -11,13 +11,13 @@
 # print("___________________")
 
 #Take marks and attendance. Check whether a student is eligible for an exam if marks ≥ 40 and attendance ≥ 75%.
-marks = 80
-attendance = 78
-if marks>=40 and attendance>=75 :
-    print ("eligible")
+# marks = 80
+# attendance = 78
+# if marks>=40 and attendance>=75 :
+#     print ("eligible")
 
-else:
-    print("not eligible")
+# else:
+#     print("not eligible")
 
 
 # print("___________________")
@@ -36,12 +36,12 @@ else:
 # print("___________________")
 
 # #Check whether a number is divisible by 5 or 10 using or.
-# num = 12
+num = 12
 
-# if num % 5 == 0 or num % 10 == 0:
-#     print("The number is divisible")
-# else:
-#     print("The number is not divisible")
+if num % 5 == 0 or num % 10 == 0:
+    print("The number is divisible")
+else:
+    print("The number is not divisible")
 
 
 # print("___________________")
