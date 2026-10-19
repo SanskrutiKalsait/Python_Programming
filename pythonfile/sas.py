@@ -1,23 +1,23 @@
 
 #2. Take two numbers and check whether both are positive.
-a = 8
-b = 7
-if a>0 and b>0:
-    print("positive")
-
-else:
-    print("negative")
-
-print("___________________")
-
-#Take marks and attendance. Check whether a student is eligible for an exam if marks ≥ 40 and attendance ≥ 75%.
-# marks = 80
-# attendance = 78
-# if marks>=40 and attendance>=75 :
-#     print ("eligible")
+# a = 8
+# b = 7
+# if a>0 and b>0:
+#     print("positive")
 
 # else:
-#     print("not eligible")
+#     print("negative")
+
+# print("___________________")
+
+#Take marks and attendance. Check whether a student is eligible for an exam if marks ≥ 40 and attendance ≥ 75%.
+marks = 80
+attendance = 78
+if marks>=40 and attendance>=75 :
+    print ("eligible")
+
+else:
+    print("not eligible")
 
 
 # print("___________________")
