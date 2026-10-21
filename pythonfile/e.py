@@ -40,11 +40,11 @@ print(no)
 print("-----------ENd--------------")
 
 
-print("*****MARKS CALCULATION******")
+# print("*****MARKS CALCULATION******")
 
-marks1 = "25"
-marks2 = "27"
-print(25+27)
-print(90+26)
-print (78+78)
+# marks1 = "25"
+# marks2 = "27"
+# print(25+27)
+# print(90+26)
+# print (78+78)
 
