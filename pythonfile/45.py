@@ -47,29 +47,29 @@
 #         self.name= name
 #         self.age = age
 
-# # s1 = Democlass("sanskruti","19")
-# # print(s1.name,s1.age)
+# s1 = Democlass("sanskruti","19")
+# print(s1.name,s1.age)
 
-# # #encapculation
-# # class D():
-# #     def __init__(self, balance):
-# #         self._balancebalance = balance
+# #encapculation
+# class D():
+#     def __init__(self, balance):
+#         self._balancebalance = balance
 
 # obj=D()
 # print(D.balance)
 
 
-# class D():
-#     def set_balance (self, balance):
-#         self.__balance = balance
+class D():
+    def set_balance (self, balance):
+        self.__balance = balance
 
-#     def getbalance(self):
-#         return self.__balance
+    def getbalance(self):
+        return self.__balance
 
-# obj = D()
-# obj.set_balance(2000)
-# bal =obj.getbalance()
-# print(bal)
+obj = D()
+obj.set_balance(2000)
+bal =obj.getbalance()
+print(bal)
 
 
 # class D():
